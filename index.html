@@ -1,0 +1,48 @@
+<!doctype html>
+
+<head>
+  <meta charset="utf-8">
+  <title>PixiJS + </title>
+</head>
+<script src="lib/pixi.min.js"></script>
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  #container {
+    width: 90%;
+  }
+
+  button {
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+</style>
+
+<body>
+
+  <div id="conatiner">
+
+    <h1>PixiJS v5 +</h1>
+    <h2>Script animation</h2>
+    <h3>(v4 -> v5 migration)</h3>
+
+    <div id="canvas"></div>
+
+    <p>delete Warnings below.</p>
+
+    <pre>
+      PixiJS Deprecation Warning: PIXI.loader instance has moved to PIXI.Loader.sharedDeprecated since v5.0.0
+      PixiJS Deprecation Warning: PIXI.ticker.shared instance has moved to PIXI.Ticker.sharedDeprecated since v5.0.0
+    </pre>
+
+  </div>
+
+  <script src="src/index.js"></script>
+
+</body>
+
+</html>

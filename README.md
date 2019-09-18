@@ -1,7 +1,7 @@
 # Testing animation using PixiJS v5 with webpack.
 
 **DEMO**  
-[https://evofan.github.io/pixijs_script_anime_v5/](https://evofan.github.io/pixijs_script_anime_v5/)  
+[https://evofan.github.io/pixijs_script_anime_v5_webpack/](https://evofan.github.io/pixijs_script_anime_v5_webpack/)  
 
 reference  
 

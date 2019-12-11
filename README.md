@@ -19,3 +19,11 @@ reference
 
 **Getting Started with Pixi.js and webpack**  
 [https://jameskiefer.com/posts/getting-started-with-pixi.js-and-webpack/](https://jameskiefer.com/posts/getting-started-with-pixi.js-and-webpack/)  
+
+Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"}...
+>ncu -u  
+>npm i -f
+
+  "dependencies": {
+    "fsevents": "^2.1.2" // ← 1.2.9
+  }

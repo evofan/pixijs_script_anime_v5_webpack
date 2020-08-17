@@ -22,7 +22,8 @@ reference
 
 Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"}...
 >ncu -u  
->npm i -f
+>~~npm i -f~~  
+>npm i --f
 
   "dependencies": {
     "fsevents": "^2.1.2" // ← 1.2.9

@@ -10,7 +10,13 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: "Pixi.js Demo"
     }),
-    new CopyPlugin([{ from: "src/assets", to: "assets" }])
+    new CopyPlugin({
+      patterns: [
+        {
+          from: "src/assets", to: "assets"
+        }
+      ]
+    })
   ],
   output: {
     filename: "main.js",

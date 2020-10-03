@@ -2,7 +2,8 @@
 
 **DEMO**  
 
-<img src="https://raw.githubusercontent.com/evofan/pixijs_script_anime_v5_webpack/master/screenshot/pic_fall_snow.jpg" width="50%">  
+<img src="https://raw.githubusercontent.com/evofan/pixijs_script_anime_v5_webpack/master/screenshot/pic_snow.jpg" width="50%">  
+
 [https://evofan.github.io/pixijs_script_anime_v5_webpack/dist/](https://evofan.github.io/pixijs_script_anime_v5_webpack/dist/)  
 
 **USAGE(test on Windows10)**  

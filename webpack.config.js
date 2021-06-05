@@ -4,6 +4,11 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
+  // When the mode is set to "production", the JS file is output in an optimized state
+  // When the mode is set to "development", the source map is valid and the JS file is output
+  // mode: "production",
+  // or
+  mode: "development",
   entry: "./src/index.js",
   plugins: [
     new CleanWebpackPlugin(),

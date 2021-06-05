@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "webpack-dev-server"
+    "start": "webpack serve",
+    "watch": "webpack --watch"
   },
   "keywords": [],
   "author": "",
